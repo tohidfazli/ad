@@ -38,10 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'ad.apps.AdConfig',
-    'rest_framework',
-    'drf_yasg',
-    'djoser',
-    'rest_framework.authtoken',
+
 
 
 
