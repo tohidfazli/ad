@@ -23,7 +23,4 @@ from rest_framework import permissions
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('ad.urls', namespace='ad')),
-    
-    path('auth/', include('djoser.urls')),
-    path('auth/', include('djoser.urls.authtoken')),
 ]
